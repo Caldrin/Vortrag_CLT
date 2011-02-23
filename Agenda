@@ -1,0 +1,9 @@
+* Einleitung (Maik)
+* Perl 5.10, 5.12, 5.14 (rafl)
+* Testing (Maik)
+** Test::More,
+* Moose (rafl)
+** MooseX::Declare
+* DBIx::Class (Maik)
+** searches stacken, SQL erst am Ende, machen das andere auch?
+* AnyEvent
