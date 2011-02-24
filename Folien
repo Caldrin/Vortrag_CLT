@@ -17,7 +17,7 @@
 * Perl eignet sich für kleine Wegwerfscripte
 * das war einer der Gründe für die Geburt von Perl
 * Vorurteil -> "Für große Projekte ist Perl ungeeignet und der sichere Weg ins
-  Disaster"
+  Desaster"
 
                 Ein bisschen Geschichte (1)
                 ===========================
@@ -31,7 +31,7 @@
 * zweiter großer Schritt -> "The Internet" / Dot-Com-Blase
 * Jeder und sein kleiner Bruder baut "Webapplikationen"
 ** aus der Zeit stammt jege Menge Schrottcode
-* Matts Scriptarchiv anyone?
+* Matt's Scriptarchiv anyone?
 
 
                 Ein bisschen Geschichte (3)
@@ -49,11 +49,21 @@
 
                 Neues in Perl seit 5.10
                 =======================
-* say - klein aber oho
+* say - klein aber nützlich
 * given/when - endlich ein switch
-* smartmatch
+* smartmatch, // (ein Wort zur dor-Debatte?)
+* Releases in jedem Frühling (5.12)
+(* vernünftiges Perl auf Windows - Strawberry)
 
 
                 CPAN
                 ====
-*
+* das zentrale Archiv für Perlmodule
+** wenn es dort nicht ist, exisiert es nicht (kein Wort zu DarkPAN)
+* Es gibt auf CPAN Module für ALLES
+* Module in Distributionen (lib/, t/, script/)
+* jeder kann hochladen, dadurch auch weniger gute Module
+* Reviews, Bugreports, CPAN-Testers lesen
+* sehr erfolgreiche und wichtige Module in Core
+** manche Chefs erlauben keine nachinstallierten Module, dann nur Core
+
