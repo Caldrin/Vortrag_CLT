@@ -1,0 +1,59 @@
+                Vorurteile Objektsystem
+                =======================
+* Objektsystem mit bless ist state-of-the-art .. für Ramses III ;-)
+* Vorurteil -> "Perl kann kein vernünftiges OO"
+
+
+                Vorurteil Programmierstil
+                =========================
+* Beispiel vom JAPH
+* TIMTOWTDI, fast immer mehrere Wege, unter anderem auch ein umständlicher und
+  schwer lesbarer
+* Vorurteil -> "Perl Code ist unlesbar und ein Maintainance-Alptraum"
+
+
+                Vorurteil Projekte
+                ==================
+* Perl eignet sich für kleine Wegwerfscripte
+* das war einer der Gründe für die Geburt von Perl
+* Vorurteil -> "Für große Projekte ist Perl ungeeignet und der sichere Weg ins
+  Disaster"
+
+                Ein bisschen Geschichte (1)
+                ===========================
+* Vorläufer awk, sed, Shell, C
+* "Principle of least surprise" für Entwickler dieser Sprachen
+* daher stammen ein paar Entscheidungen, die man heute nicht mehr einbauen
+  würde
+
+                Ein bisschen Geschichte (2)
+                ===========================
+* zweiter großer Schritt -> "The Internet" / Dot-Com-Blase
+* Jeder und sein kleiner Bruder baut "Webapplikationen"
+** aus der Zeit stammt jege Menge Schrottcode
+* Matts Scriptarchiv anyone?
+
+
+                Ein bisschen Geschichte (3)
+                ===========================
+* Larry kündigt Perl6-Entwicklung an
+* Perl5-Entwicklung schläft ein, wird von anderen Sprachen eingeholt
+
+
+                Ein bisschen Geschichte - Die Gegenwart
+                =======================================
+* Perl5-Entwicklung nimmt wieder Fahrt auf
+* Perl5 und Perl6 werden nebeneinander existieren (wie C und C++)
+* Coole Sachen entstehen
+
+
+                Neues in Perl seit 5.10
+                =======================
+* say - klein aber oho
+* given/when - endlich ein switch
+* smartmatch
+
+
+                CPAN
+                ====
+*
