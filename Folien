@@ -66,4 +66,31 @@
 * Reviews, Bugreports, CPAN-Testers lesen
 * sehr erfolgreiche und wichtige Module in Core
 ** manche Chefs erlauben keine nachinstallierten Module, dann nur Core
+** Perl ohne CPAN ist wie Auto fahren ohne Gangschaltung
 
+
+                Testing
+                =======
+* TAP (Folien von Steffen klauen *g*)
+* Test ausführen mit prove
+** Wrapper um Perl
+* Tests automatisch beim installieren eines Moduls ausgeführt
+
+
+                Test::*
+                =======
+* Simpel - Test::More
+** is, isnt, like
+* fortgeschritten - Bsp. Test::Deeply
+** cmp_deeply(\@result, [all, any, bag, subhashof, superhashof]())
+* eigene Tests mit Test::Builder bauen
+* Test::Kwalitee - Bundle mit Default-Tests
+
+
+                 Test Unterstüztung
+                 ==================
+* Test::MockModule (Mock::Class, ...)
+* Funktionen fürs Testing überschreiben
+** Bsp. mkfs
+* Test::Fixture::*
+* Datenbankschema + Inhalt als YAML beschreiben
