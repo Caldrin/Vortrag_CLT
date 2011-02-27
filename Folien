@@ -94,3 +94,24 @@
 ** Bsp. mkfs
 * Test::Fixture::*
 * Datenbankschema + Inhalt als YAML beschreiben
+
+
+                 Moose
+                 =====
+* package Name; use Moose
+-> jetzt haben wir ein Klasse Name
+* subs im Package sind Methoden
+* Attribute durch has attribute => (..Eigenschaften..)
+* Einfachvererbung - extends $parentname
+
+
+                  MooseX
+                  ======
+* Singletons - für Javafreunde ;-)
+* Roles - Mehrfachvererbung (aka Mixin)
+* Parametervalidierung
+** MooseX::Params::Validate - stabil
+** MooseX::Methods::Signature - alpa aber megagenial
+* Daemonize - Moose-basierte Daemons (start, stop, status, ..)
+* Declare - syntaktischer Zucker
+
