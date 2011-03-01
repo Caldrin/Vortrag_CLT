@@ -3,8 +3,14 @@
 * say - klein aber nützlich
 * given/when - endlich ein switch
 * smartmatch, // (ein Wort zur dor-Debatte?)
-* Releases in jedem Frühling (5.12)
-(* vernünftiges Perl auf Windows - Strawberry)
+* vernünftiges Perl auf Windows - Strawberry
+
+
+                Neues in Perl seit 5.12
+                =======================
+* Releases in jedem Frühling
+* extensible Keywords - Devel::Declare in Perl
+* komplettester Unicode-Support
 
 
                 CPAN
@@ -44,7 +50,7 @@
 * Funktionen fürs Testing überschreiben
 ** Bsp. mkfs
 * Test::Fixture::*
-* Datenbankschema + Inhalt als YAML beschreiben
+** Datenbankschema + Inhalt als YAML beschreiben
 
 
                  Moose
@@ -66,3 +72,20 @@
 * Daemonize - Moose-basierte Daemons (start, stop, status, ..)
 * Declare - syntaktischer Zucker
 
+                 RegEx
+                 =====
+* Grammars
+* named Backreferencen
+* Look ahead, look behind (kompletteste Regexp)
+* Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
+
+                DBIx::Class
+                ===========
+* SQL::Abstract - wandelt alles in SQL um
+
+
+                Code-Generierung
+                ================
+* Syntaxvielfalt erlaubt Codegenerierung
+* Regexp::Grammars
+* Parse::RecDescent
