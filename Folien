@@ -1,8 +1,13 @@
                 Neues in Perl seit 5.10
                 =======================
-* say - klein aber nützlich
+* say, //  - klein aber nützlich
 * given/when - endlich ein switch
-* smartmatch, // (ein Wort zur dor-Debatte?)
+* smartmatch
+** rechts ein numerischer Wert => ==
+** rechts ein regex (qr//) => regex match
+** rechts ein Hash         => exists
+** rechts ein Array        => grep
+** rechts ein Object       => wenn überladen
 * vernünftiges Perl auf Windows - Strawberry
 
 
@@ -76,7 +81,9 @@
                  =====
 * Grammars
 * named Backreferencen
+** /(?<name>regex)/
 * Look ahead, look behind (kompletteste Regexp)
+** (?!negative lookahead), (?=positive lookahead), (?<!negative lookbehind), (?<=positive lookbehind)
 * Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
 
                 DBIx::Class
