@@ -30,12 +30,15 @@
 * das zentrale Archiv für Perlmodule
 ** wenn es dort nicht ist, exisiert es nicht (kein Wort zu DarkPAN)
 * Es gibt auf CPAN Module für ALLES
-* Module in Distributionen (lib/, t/, script/)
+* Module in Distributionen (lib/, t/, script/, META.yml, README)
 * jeder kann hochladen, dadurch auch weniger gute Module
 * Reviews, Bugreports, CPAN-Testers lesen
 * sehr erfolgreiche und wichtige Module in Core
 ** manche Chefs erlauben keine nachinstallierten Module, dann nur Core
 ** Perl ohne CPAN ist wie Auto fahren ohne Gangschaltung
+* installieren mit cpan/cpanm
+** cpanm == App::cpanminus
+*** minimaler, schneller, zeroconf Client
 
 
                 Testing
@@ -99,3 +102,23 @@
                 ===========
 * SQL::Abstract - wandelt alles in SQL um
 * dadurch joins in Datenbank, nicht durch Perl
+
+
+                Community
+                =========
+* Perlmonks http://perlmonks.org
+** Forum für Fragen
+** Dezember 1999, älteste Programmierercommunitywebseite
+* http://perl.org
+* Zentrale Stelle für Doku, Code, Mailinglisten, ...
+* IRC  irc://irc.perl.org
+* Events
+** Hackathon,
+** YAPC
+
+                Deutsche Community
+                ==================
+* #perlde auf irc.perl.org
+* http://perl-community.org
+* German Perl Workshop
+* auf dem CLT ;-)
