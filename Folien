@@ -16,6 +16,13 @@
 * Releases in jedem Frühling
 * extensible Keywords - Devel::Declare in Perl
 * komplettester Unicode-Support
+** use utf8 -> erlaubt Unicode im Quelltext (schon länger enthalten)
+
+                eigenes Perl
+                ============
+* local::lib + Distro Perl
+* besser - perlbrew
+** eigene Perls bauen, switch mit perlbrew switch $version
 
 
                 CPAN
@@ -79,20 +86,16 @@
 
                  RegEx
                  =====
-* Grammars
 * named Backreferencen
 ** /(?<name>regex)/
 * Look ahead, look behind (kompletteste Regexp)
 ** (?!negative lookahead), (?=positive lookahead), (?<!negative lookbehind), (?<=positive lookbehind)
+* /x erlaubt Whitespace und Kommentare in regexp
+* Regexp::Grammars
+-> siehe Beispiel
 * Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
 
                 DBIx::Class
                 ===========
 * SQL::Abstract - wandelt alles in SQL um
-
-
-                Code-Generierung
-                ================
-* Syntaxvielfalt erlaubt Codegenerierung
-* Regexp::Grammars
-* Parse::RecDescent
+* dadurch joins in Datenbank, nicht durch Perl
