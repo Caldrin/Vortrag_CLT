@@ -122,3 +122,12 @@
 * http://perl-community.org
 * German Perl Workshop
 * auf dem CLT ;-)
+
+                Perl6
+                =====
+* z.Z. Experimentalstadium
+* wird Perl5 nicht ersetzen
+** nebenher von Perl5/Perl6 ähnlich C/C++
+* viele Ideen nach Perl5 rückportiert/beeinflusst
+** Moose
+** Perl6::Junctions
