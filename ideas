@@ -1,0 +1,131 @@
+07:07 <rafl> du hattest in deiner liste in der hauptsache konkrete dinge, mit denen man rumposen kann
+07:07 <rafl> da hatte mir so ein bisschen der ansatz und so gefehlt
+07:07 <rafl> deswegen dacht ich mir wir fangen am besten ein bisschen historisch an
+07:08 <rafl> aus welcher richtung perl urspruenglich kam, um daraus vielleicht ein bisschen herzuleiten woher die oft 
+             wahrgenommenen probleme mit perl kommen
+07:08 <rafl> um dann gegenzuhalten wie perl eigentlich schon immer ne sich oft aenderde und sich entwickelnde sprache war
+07:08 <rafl> und dass viele wahrgenommene perl probleme inwischen tendenziell
+nur vorurteile oder veraltetes wissen sind
+07:07 <rafl> du hattest in deiner liste in der hauptsache konkrete dinge, mit denen man rumposen kann
+07:07 <rafl> da hatte mir so ein bisschen der ansatz und so gefehlt
+07:07 <rafl> deswegen dacht ich mir wir fangen am besten ein bisschen historisch an
+07:08 <rafl> aus welcher richtung perl urspruenglich kam, um daraus vielleicht ein bisschen herzuleiten woher die oft 
+             wahrgenommenen probleme mit perl kommen
+07:08 <rafl> um dann gegenzuhalten wie perl eigentlich schon immer ne sich oft aenderde und sich entwickelnde sprache war
+07:08 <rafl> und dass viele wahrgenommene perl probleme inwischen tendenziell nur vorurteile oder veraltetes wissen sind
+07:09 <rafl> ein bisschen vom leder ziehn mit den sachen, die wir so erfunden haben, was uns von anderen abhebt, etc.
+07:09 <rafl> und erst dann zu konkreten sachen, eventuell mit code uebergehen
+07:13 <Caldrin> Klingt super.
+07:13 <Caldrin> Zu vorurteile und veraltetes Wissen hab ich schon drei schöne Folien.
+07:16 <Caldrin> Ok, was wir erfunden haben, dazu fällt mir erstmal CPAN und Testing ein.
+07:22 <rafl> so, fruehstueck waer jetzt auch geschafft
+07:22 <rafl> cool! machst du irgendwo mal ein git repo fuer die folien?
+07:22 <Caldrin> :-)
+07:23 <Caldrin> Ist OpenOffice ok?
+07:23 <rafl> klar
+07:23 <rafl> vorher nur text files editiern und erst am ende richtige folien draus machen faend ich zwar fast cooler, aber was 
+
+07:09 <rafl> ein bisschen vom leder ziehn mit den sachen, die wir so erfunden haben, was uns von anderen abhebt, etc.
+07:09 <rafl> und erst dann zu konkreten sachen, eventuell mit code uebergehen
+07:13 <Caldrin> Klingt super.
+07:13 <Caldrin> Zu vorurteile und veraltetes Wissen hab ich schon drei schöne Folien.
+07:16 <Caldrin> Ok, was wir erfunden haben, dazu fällt mir erstmal CPAN und Testing ein.
+07:22 <rafl> so, fruehstueck waer jetzt auch geschafft
+07:22 <rafl> cool! machst du irgendwo mal ein git repo fuer die folien?
+07:22 <Caldrin> :-)
+07:23 <Caldrin> Ist OpenOffice ok?
+07:23 <rafl> klar
+07:23 <rafl> vorher nur text files editiern und erst am ende richtige folien draus machen faend ich zwar fast cooler, aber was 
+             immer fuer dich funktioniert ist mir recht
+07:24 <rafl> testing auf jeden fall. nicht nur testing an sich, sondern insbesondere die kultur dahinter
+07:24 <Caldrin> Latex/Beamer hab ich noch gar nicht benutzt, Magicpoint ist ewig her.
+07:25 <rafl> tap, die kultur exzessiv tests zu schreiben, Test::*, cpantesters, kwalitee, etc
+07:25 <Caldrin> *nick*
+07:26 <rafl> so meint ichs nicht - direkt von text files presenten, via latex oder mgp funktioniert fuer mich zwar auch, aber 
+             ich meinte einfach nur text files schreiben solange wir dran arbeiten, und erst wenn wir gefuehlt am ende sind ne 
+             openoffice praesentation draus machen
+07:26 <rafl> aber ich kann auch immer mit openoffice editieren - kein ding
+07:26 <Caldrin> Umgekehrt klingt besser.
+07:27 <Caldrin> Also erstmal nur Text, dann folien am Ende.
+07:27 <rafl> jou, das faend ich ideal
+07:29 <Caldrin> Ich kümmer mich heute noch um das git-Repo.
+07:30 <rafl> cool, danke
+07:30 <Caldrin> Muss mich erstmal um mein Kind kümmern, die hat in einer Stunde Arzttermin.
+07:30 <Caldrin> Bis später.
+07:30 <rafl> ich schreib auch gleich noch n bisschen mehr zu meinen gedanken. es ist einfach noch zu frueh um richtig bei der 
+             sache zu sein
+07:30 <rafl> alles klar
+08:16 <rafl> CPAN gehoert auf jeden fall auch auf die liste, obwohl wir das nicht erfunden haben. CTAN war vorher
+08:24 <rafl> ok, mehr gedanken
+08:25 <rafl> vom "evolving" gedanken aus koennte man hergehn und ein bisschen beschreiben wie wir hergehn und sachen erst in 
+             modulen ausprobieren, sie perfektionieren, und dann, wenn sie wirklich gut sind, in den core aufnehmen
+08:26 <rafl> mit beispielen wie Switch und freunden -> given-when/smartmatch, oder Filter -> Devel::Declare -> pluggable 
+             keywords
+08:26 <rafl> und dabei gleich die gelegenheit bekommen neue core features vorstellen zu koennen
+08:28 <rafl> wie extensibility gross geschrieben wird faend ich auch erwaehnenswert
+08:29 <rafl> wenn ich ein myisam framework brauche, weiss ich wo ich rails finde, aber wenn ich ne web applikation schreiben 
+             will, die nicht ins raster passt, dann hab ich mit dingen wie Catalyst meine freiheit
+08:29 <rafl> lade welches model auch immer ich will, oder implementiere mein eigenes, und nichts kommt mir dabei in den weg
+08:30 <rafl> und natuerlich CatalystX::, MooseX::, DBIC extensions, etc
+08:33 <rafl> oh, und dann natuerlich Moose selbst, und wie darin features sind, die auf solider theorie basiern, und die man 
+             sonst nirgendwo findet
+08:34 <rafl> mein hauptanliegen, denke ich, ist zu zeigen dass sich in den letzten 20 jahren super viel getan hat, und dass 
+             die meisten aussenstehenden garnicht realisieren wie gut unser momentaner stack eigentlich ist, und dass es 
+             einfach kaum was gibt, dass perl heutzutage nicht machen kann
+08:35 <rafl> und natuerlich zu zeigen dass die meisten vorurteile im hoechstfalle bedingt stimmen
+08:36 <rafl> zumindest in der praxis
+08:36 <rafl> sorry, das war jetzt alles ein bisschen unsortiert und eher brainstorming
+08:36 <rafl> ich wuerds nochmal ueberdenken und geordneter niederschreiben wenn du deine folien irgendwo fuer mich zum 
+             editieren hast
+08:58 <rafl> ich frag mich auch wie wir perl 6 erwaehnen wollen
+09:53 <Caldrin> Hmm, Perl6 ist noch recht unfertig. Da gibt es zwar schon einige coole Sachen, aber ich würde mich eher auf 
+                Dinge konzentrieren, mit denen man Produktivsysteme entwickeln kann. Da hab ich bei perl6 Zweifel.
+10:04 <rafl> ich doch auch. trotzdem ists was erwaehnenswertes fuer den vortrag
+10:05 <rafl> e.g. leute bekommen immer noch ihren job erledigt und machen neue, coole sachen mit p5, obwohl an p6 auch 
+             entwickelt wird und coole sachen rauskommen, die oft genug sogar in p5 landen
+10:05 <Caldrin> Hmm :-)
+10:05 <rafl> anderer ansicht?
+10:06 <rafl> was denn nun los ist mit p6, und ob sichs ueberhaupt noch lohnt p5 zu lernen, hoer ich oft genug
+10:06 <rafl> und verbreitete misconceptions wollten wir ja schon adressieren, oder?
+10:07 <Caldrin> ACK.
+10:07 <Caldrin> Das ist die IDEE hinter dem Vortrag.
+10:07 <Caldrin> Also rein.
+10:08 <rafl> ich seh p6 generell eher als research projekt, aber ich will auch nicht negativ rueber kommen und es deswegen 
+             einfach nur weitestgehend wertungslos in relation setzen
+10:12 <rafl> was hattest du denn noch so fuer plaene? irgendwas, das wir noch nicht erwaehnt hatten?
+10:16 <Caldrin> Nein, in deinem Brainstorming ist alles drin, was ich auch hatte. Auftakt mit ein paar "Ihr glaubt wir sind so 
+                schlecht? Let's see!". Ein bisschen Geschichte, wir entwickeln uns. Dann rüber zu CPAN. Bei CPAN als letztes 
+                CPAN-Testers, von da rüber zu Testing. Wieso, wie, usw. Dann neu in Perl selber. Say, switch, smartmatch, ....
+10:16 <Caldrin> Nächster Punkt wären die coolen Module. Moose(X), DBIC, ...
+10:17 <Caldrin> Dann noch Perl6 und wir sind durch. Wenn wir extrem rasen.
+10:17 <Caldrin> Wir haben schließlich nur 45 Minuten.
+16:52 <rafl> das wird schon. zumindest ich hatte vor nur rumzuposen und featureschau zu machen, nicht code zu erklaeren
+16:52 <rafl> oh, und es gibt uebrigens die vergleichsweise unwahrscheinliche chance dass ich zum clt in london sein muss
+16:53 <rafl> an sich soll es die woche drauf sein, aber das datum ist noch leicht ungewiss
+16:53 <rafl> just fyi
+17:04 <Caldrin> Hmm, kriege ich trotzdem hin.
+17:06 <Caldrin> Featureschau macht sich einfach, wenn man ein bisschen Code hat. Test::Deeply z.B. sieht man erst dann als 
+                genial, wenn ich mal sage "Hier hab ich ein Array, ich will nur wissen, ob diese drei Elemente überhaupt drin 
+                sind, egal in welcher Reinfolge." -> 2 Zeilen Code -> prove -> Great.
+17:06 <Caldrin> Erstmal Feierabend. Ich melde mich von zu Hause aus wieder.
+17:08 <rafl> ich helf ja auch beim schreiben schoen mit. nur beim vortragen koennts problematisch werden - aber wie gesagt, 
+             ziemlich unwahrscheinlich
+19:10 <Caldrin> Wie gesagt, vortragen kriege ich alleine hin. Ich will nur gern dein unglaubliches Wissen in der vorbereitung 
+                abgreifen ;-)))
+20:13 <Caldrin> https://github.com/Caldrin/Vortrag_CLT
+20:13 <Caldrin> Ich bin noch dabei, Sachen hochzuladen.
+Day changed to 24 Feb 2011
+08:39 <rafl> hihi.. sehr schoen. zumindest was den vortragsstil angeht scheinen wir auf einer wellenlaenge zu sein
+08:39 <Caldrin> Wo nicht?
+08:40 <rafl> weiss ich noch nicht. aber ich fand den stil in den folien gut und machs auch immer so
+08:41 <rafl> obwohl ich das erste bild zu krass fand um es auf ner diagonale mit mehreren metern zu zeigen. lieber haett ich 
+             da etwas wie http://www.wiki365.info/images/9/9f/Shite.png genommen ;)
+08:42 <Caldrin> Vermutlich besser, vor allem, wenn kleine Kinder im Raum sind ;-)
+08:44 <rafl> ne, nicht in dem sinne krass. nur nicht zwingend dienlich den punkt zu unterstreichen :)
+08:45 <rafl> was meinte denn Vorurteil - Projekte?
+08:50 <Caldrin> IMHO scheinen viele Leute zu glauben, wenn man Perl für große Projekte einsetzt, knallt es, weil Perl dafür 
+                ungeeignet ist.
+08:51 <Caldrin> Vermutlich passt da eher ein Pflaster oder eine Rolle Duct-Tape.
+08:51 <rafl> mm
+22:44 <Caldrin> So, ein paar Ideen sind schon upstream :-)
+Day changed to 25 Feb 2011
