@@ -125,13 +125,26 @@
 * Regexp::Grammars
 -> siehe Beispiel
 
+                 OO
+                 ==
+* Minimalistisch - überlässt die meiste Arbeit dem Programmierer
+** Sinnvoll in 1994
+* common patterns + Perl's Flexibilität -> OO module ecosystems
+** Moose, Mouse, Class::Accessor, Object::Tiny, Role::Tiny
+*** -> perlootut
+
                  Moose
                  =====
-* package Name; use Moose
--> jetzt haben wir ein Klasse Name
-* subs im Package sind Methoden
-* Attribute durch has attribute => (..Eigenschaften..)
-* Einfachvererbung - extends $parentname
+* "postmodern object system for Perl 5"
+** "first postmodern computer language"
+* CLOS, Smalltalk, ...
+* Features
+** Deklarative syntax
+** Roles
+** type system
+** introspection, metaprogramming
+** *sehr* mächtig
+** MooseX::* ecosystem
 
 
                   MooseX
