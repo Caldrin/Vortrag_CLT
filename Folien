@@ -31,6 +31,7 @@
 ** wenn es dort nicht ist, exisiert es nicht (kein Wort zu DarkPAN)
 * Es gibt auf CPAN Module für ALLES
 * Module in Distributionen (lib/, t/, script/, META.yml, README)
+## erstellen mit module-starter
 * jeder kann hochladen, dadurch auch weniger gute Module
 * Reviews, Bugreports, CPAN-Testers lesen
 * sehr erfolgreiche und wichtige Module in Core
@@ -61,12 +62,24 @@
 
                  Test Unterstüztung
                  ==================
+* Unterschiede erkennen - Test:Differences
+* Test Coverage - Devel::Cover
 * Test::MockModule (Mock::Class, ...)
 * Funktionen fürs Testing überschreiben
 ** Bsp. mkfs
 * Test::Fixture::*
 ** Datenbankschema + Inhalt als YAML beschreiben
 
+                 RegEx
+                 =====
+* named Backreferencen
+** /(?<name>regex)/
+* Look ahead, look behind (kompletteste Regexp)
+** (?!negative lookahead), (?=positive lookahead), (?<!negative lookbehind), (?<=positive lookbehind)
+* /x erlaubt Whitespace und Kommentare in regexp
+* Regexp::Grammars
+-> siehe Beispiel
+* Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
 
                  Moose
                  =====
@@ -87,16 +100,6 @@
 * Daemonize - Moose-basierte Daemons (start, stop, status, ..)
 * Declare - syntaktischer Zucker
 
-                 RegEx
-                 =====
-* named Backreferencen
-** /(?<name>regex)/
-* Look ahead, look behind (kompletteste Regexp)
-** (?!negative lookahead), (?=positive lookahead), (?<!negative lookbehind), (?<=positive lookbehind)
-* /x erlaubt Whitespace und Kommentare in regexp
-* Regexp::Grammars
--> siehe Beispiel
-* Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
 
                 DBIx::Class
                 ===========
