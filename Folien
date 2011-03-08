@@ -1,3 +1,26 @@
+  # die nächsten drei Folien hätte ich so in der Art schon gern drin, aber Du
+  # hattest ähnliches in nem früheren commit schon mal entfernt. Man könnte es
+  # alternativ auch andersherum machen - "diese riesige Liste cooler Dinge habt
+  # ihr verpasst, weil ihr vor 10 Jahren aufgehört habt hinzuschauen", und erst
+  # danach mögliche, inzwischen behobene, Ursachen listen
+
+                =======================
+* Perl's historische Nische
+** C, Awk, Shell
+** Whipuptidude, Manipulexity
+
+                =======================
+* Web Boom
+** dynamische Webseiten
+** schlimme CGI scripts
+** Marketing suck, echo chamber
+
+                =======================
+* das ist alles 10 Jahre her.
+* Technik hat sich weiterentwickelt - Perl auch
+
+
+
                 Neues in Perl seit 5.10
                 =======================
 * say, //  - klein aber nützlich
@@ -13,17 +36,36 @@
 
                 Neues in Perl seit 5.12
                 =======================
-* Releases in jedem Frühling
+* Releases in jedem Frühling, development releases jeden *Monat*
 * extensible Keywords - Devel::Declare in Perl
 * komplettester Unicode-Support
 ** use utf8 -> erlaubt Unicode im Quelltext (schon länger enthalten)
 
+                Neues in Perl seit 5.14
+                =======================
+* extrem viele performance improvements
+* komplettestererer Unicode-Support
+** Unicode 6.0, charnames, regexp flags, user-defined case mappings
+* viel historischer cruft entfernt
+* neue features
+** non-destructive substitutions/transliterations
+* mehr extensibility
+
+  # roundup. neue features kommen rein; alte schlechte Ideen fliegen raus;
+  # Infrastruktur zum schreiben neuer cooler Dinge wird geschaffen;
+  # -> evolving language
+
+
+  # echt? find ich ich nebensächlich
                 eigenes Perl
                 ============
 * local::lib + Distro Perl
 * besser - perlbrew
 ** eigene Perls bauen, switch mit perlbrew switch $version
 
+
+  # nicht nur der Perl core ist striving, sondern auch das Ökosystem um ihn
+  # herum
 
                 CPAN
                 ====
@@ -33,6 +75,7 @@
 * Module in Distributionen (lib/, t/, script/, META.yml, README)
 ## erstellen mit module-starter
 * jeder kann hochladen, dadurch auch weniger gute Module
+* CPAN uploads Graph (striving!)
 * Reviews, Bugreports, CPAN-Testers lesen
 * sehr erfolgreiche und wichtige Module in Core
 ** manche Chefs erlauben keine nachinstallierten Module, dann nur Core
@@ -44,6 +87,7 @@
 
                 Testing
                 =======
+* Testing-*Kultur*
 * TAP (Folien von Steffen klauen *g*)
 * Test ausführen mit prove
 ** Wrapper um Perl
