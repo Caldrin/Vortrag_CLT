@@ -146,16 +146,16 @@
 ** *sehr* mächtig
 ** MooseX::* ecosystem
 
-
-                  MooseX
-                  ======
-* Singletons - für Javafreunde ;-)
-* Roles - Mehrfachvererbung (aka Mixin)
-* Parametervalidierung
-** MooseX::Params::Validate - stabil
-** MooseX::Methods::Signature - alpa aber megagenial
-* Daemonize - Moose-basierte Daemons (start, stop, status, ..)
-* Declare - syntaktischer Zucker
+                  MooseX::*
+                  =========
+* Patterns, Helfer, opinions
+** Singleton, ClassAttribute, Types, Role::Paramterized, FollowPBP, SemiAffordanceAccessor
+* Zusätzliche validation
+** StrictConstructor, Params::Validate, MXMS
+* Integration
+** Getopt, App::Cmd, Daemonize, POE, NonMoose
+* syntax sugar
+** MXD, MultiMethods
 
 
                 DBIx::Class
