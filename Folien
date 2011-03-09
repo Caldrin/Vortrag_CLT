@@ -72,6 +72,7 @@
 
                  RegEx
                  =====
+* Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
 * named Backreferencen
 ** /(?<name>regex)/
 * Look ahead, look behind (kompletteste Regexp)
@@ -79,7 +80,6 @@
 * /x erlaubt Whitespace und Kommentare in regexp
 * Regexp::Grammars
 -> siehe Beispiel
-* Perl regex in anderen Sprachen, trotzdem noch hinter Perl hinterher
 
                  Moose
                  =====
