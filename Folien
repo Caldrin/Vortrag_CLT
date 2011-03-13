@@ -56,16 +56,6 @@
   # -> evolving language
 
 
-  # echt? find ich ich nebensächlich
-                eigenes Perl
-                ============
-* local::lib + Distro Perl
-* besser - perlbrew
-** eigene Perls bauen, switch mit perlbrew switch $version
-
-
-  # nicht nur der Perl core ist striving, sondern auch das Ökosystem um ihn
-  # herum
 
                 CPAN
                 ====
@@ -88,10 +78,22 @@
                 Testing
                 =======
 * Testing-*Kultur*
-* TAP (Folien von Steffen klauen *g*)
 * Test ausführen mit prove
 ** Wrapper um Perl
 * Tests automatisch beim installieren eines Moduls ausgeführt
+
+                TAP
+                ===
+* Test Anything Protocol
+1..3
+ok 1 - erster Subtest Zusammenfassung
+not ok 2 - zweiter Subtest Zusammenfassung
+ok 3 - Test 3 # SKIP Begründung
+ok 4 - Test 4 # TODO Kommentar
+not ok 5 - Testbeschreibung
+    ---
+    Fehlerbeschreibung: In YAML-Form
+    ...
 
 
                 Test::*
