@@ -85,6 +85,7 @@
                 TAP
                 ===
 * Test Anything Protocol
+* einfache, mächtige, maschinenlesbare Testergebnisse
 1..3
 ok 1 - erster Subtest Zusammenfassung
 not ok 2 - zweiter Subtest Zusammenfassung
